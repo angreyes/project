@@ -1,0 +1,314 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/05/2015, 03:12:06 PM
+    Author     : GSN
+*/
+
+h1{
+    text-align: center;
+    text-shadow: 3px 8px 3px rgba(255, 255, 255, 1);
+}
+#error{
+    font:bold 20px Verdana, Geneva, sans-serif;
+font-style:normal;
+color:#ffffff;
+background:#0084ff;
+border:2px none #42f9ff;
+text-shadow:0px -1px 4px #0a0a0a;
+box-shadow:0px -1px 6px #000000;
+-moz-box-shadow:0px -1px 6px #000000;
+-webkit-box-shadow:0px -1px 6px #000000;
+border-radius:30px 30px 5px 5px;
+-moz-border-radius:30px 30px 5px 5px;
+-webkit-border-radius:30px 30px 5px 5px;
+padding:8px 40px;
+cursor:pointer;
+margin:0 auto;
+}
+input{
+font:bold 13px Tahoma, Geneva, sans-serif;
+font-style:normal;
+color:#ffffff;
+background:#f24699;
+border:0px solid #ffffff;
+text-shadow:0px -1px 1px #d911d9;
+box-shadow:2px 2px 5px #ffffff;
+-moz-box-shadow:2px 2px 5px #ffffff;
+-webkit-box-shadow:2px 2px 5px #ffffff;
+border-radius:10px 10px 10px 10px;
+-moz-border-radius:10px 10px 10px 10px;
+-webkit-border-radius:10px 10px 10px 10px;
+padding:5px 50px;
+cursor:pointer;
+margin:0 auto;
+}
+input:active{
+cursor:pointer;
+position:relative;
+top:2px;
+}
+
+.precio{
+    
+}
+
+.button{
+font:bold 20px Verdana, Geneva, sans-serif;
+font-style:normal;
+color:#ffffff;
+background:#0084ff;
+border:2px none #42f9ff;
+text-shadow:0px -1px 4px #0a0a0a;
+box-shadow:0px -1px 6px #000000;
+-moz-box-shadow:0px -1px 6px #000000;
+-webkit-box-shadow:0px -1px 6px #000000;
+border-radius:30px 30px 5px 5px;
+-moz-border-radius:30px 30px 5px 5px;
+-webkit-border-radius:30px 30px 5px 5px;
+padding:8px 40px;
+cursor:pointer;
+margin:0 auto;
+}
+.button:active{
+cursor:pointer;
+position:relative;
+top:2px;
+}
+
+
+
+.sesion{
+    -moz-border-radius-topleft: 90px;
+    -webkit-border-top-left-radius: 90px;
+    border-top-left-radius: 90px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: rgba(255, 118, 144, 1);
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 100px;
+    left: 650px;
+}
+
+.crearCuenta{
+    -moz-border-radius-topleft: 90px;
+    -webkit-border-top-left-radius: 90px;
+    border-top-left-radius: 90px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    background: rgba(255, 118, 144, 1);
+    width: 650px;
+    height: 350px;
+    position: absolute;
+    top: 140px;
+    left: 400px;
+}
+
+.unidad{
+    background: rgba(255, 118, 144, 1);
+    width: 150px;
+    height: 200px;
+    float:left;
+}
+
+.unidads{
+    background: rgba(255, 118, 144, 1);
+    width: 150px;
+    height: 200px;
+    float:left;
+}
+
+.unidadp{
+    background: rgba(255, 118, 144, 1);
+    width: 150px;
+    height: 200px;
+    float:right;
+}
+
+.unidades{
+    background: rgba(255, 118, 144, 1);
+    width: 1000px;
+    height: 430px;
+    position: absolute;
+    top: 90px;
+    left: 300px;
+    overflow: scroll;
+}
+
+.categoria{
+    background: rgba(255, 118, 144, 1);
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 40px;
+    left: 300px;
+    z-index: 3;
+}
+
+.ims{
+    background: #FFF;
+    width: 500px;
+    height: 430px;
+    float: left;
+}
+
+.Descripcion{
+    background: #FFF;
+    width: 500px;
+    height: 430px;
+    float: left;
+}
+
+.linea{
+    background: #000;
+    width: 940px;
+    height: 3px;
+    z-index: 2;
+    position: absolute;
+    top: 55px;
+    left: 270px;
+}
+
+#registro{
+    background: #FFF;
+    width: 77%;
+    height: 100px;
+    float: left;
+}
+
+#menu{
+    background: #FFF;
+    width: 20%;
+    height: 400px;
+    float: left;
+}
+
+#productos{
+    width: 80%;
+    height: 420px;
+    float: left;
+}
+
+#contactenos{
+    background: #FFF;
+    width: 100%;
+    height: 400px;
+    float: left;
+}
+
+#icono{
+    background: #FFF;
+    width: 13%;
+    height: 100px;
+    float: left;
+    z-index: 1;
+}
+
+#imagen{
+    background: #FFF;
+    width: 10%;
+    height: 100px;
+    float: right;
+}
+
+.conta1{
+    background: #FFF;
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+.texto{
+    font:bold 12px Verdana, Geneva, sans-serif;
+}
+
+.conta2{
+    background: #FFF;
+    width: 17%;
+    height: 400px;
+    float: left;
+}
+
+.total{
+    float: right;
+}
+
+.registros{
+    float: right;
+}
+
+#fondo {
+    background: url('Imagenes/bienvenido.png');
+}
+
+.botonA {
+   border-top: 1px solid #4b8ed6;
+   background: #4b8ed6;
+   background: -webkit-gradient(linear, left top, left bottom, from(#4b8ed6), to(#4b8ed6));
+   background: -webkit-linear-gradient(top, #4b8ed6, #4b8ed6);
+   background: -moz-linear-gradient(top, #4b8ed6, #4b8ed6);
+   background: -ms-linear-gradient(top, #4b8ed6, #4b8ed6);
+   background: -o-linear-gradient(top, #4b8ed6, #4b8ed6);
+   padding: 12px 24px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #111212;
+   font-size: 17px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.botonA:hover {
+   border-top-color: #285978;
+   background: #285978;
+   color: #cccccc;
+   }
+.botonA:active {
+   border-top-color: #507fde;
+   background: #507fde;
+   }
+   
+.botonR {
+   border-top: 1px solid #f79797;
+   background: #e092ce;
+   background: -webkit-gradient(linear, left top, left bottom, from(#d787ed), to(#e092ce));
+   background: -webkit-linear-gradient(top, #d787ed, #e092ce);
+   background: -moz-linear-gradient(top, #d787ed, #e092ce);
+   background: -ms-linear-gradient(top, #d787ed, #e092ce);
+   background: -o-linear-gradient(top, #d787ed, #e092ce);
+   padding: 12px 24px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #111212;
+   font-size: 17px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.botonR:hover {
+   border-top-color: #285978;
+   background: #285978;
+   color: #cccccc;
+   }
+.botonR:active {
+   border-top-color: #e279e8;
+   background: #e279e8;
+   }
+
+ 
